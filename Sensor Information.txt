@@ -1,0 +1,59 @@
+Soil Moisture
+A0 --- A0
+Gnd and
+Vcc
+
+Ultrasonic Sensor
+Trig --- D3
+Echo --- D2
+Vcc
+Gnd
+
+MQ2 Gas Sensor
+A0 --- A1
+Gnd 
+Vcc
+
+DHT11 Temperature Sensor
+Data --- D4
+Vcc
+Gnd
+
+Flame Sensor
+Data --- D11
+Vcc
+Gnd
+Buzzer --- D12
+
+
+RTC Sensor
+SCL --- First
+SDA --- Sesond
+vcc 
+gnd
+
+5,6,7,8,9,10,13
+
+const int trigPin1 = 11;
+
+const int echoPin1 = 10;
+
+const int trigPin2 = A3; //13;
+
+const int echoPin2 = A4;
+
+const int trigPin3 = A2;
+
+const int echoPin3 = A5;
+
+const int in1 = 9;
+
+const int in2 = 8;
+
+const int in3 = 4;
+
+const int in4 = 3;
+
+const int enA = 5;
+
+const int enB = 6;
